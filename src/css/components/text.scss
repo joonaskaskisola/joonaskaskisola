@@ -1,0 +1,23 @@
+.text {
+	color: white;
+
+	&--large {
+		font-size: 3rem;
+
+		@media only screen and (max-width: 600px) {
+			font-size: 2rem;
+		}
+	}
+
+	&--medium {
+		font-size: 2rem;
+	}
+
+	&--small {
+		font-size: 1.4rem;
+	}
+
+	&--centered {
+		text-align: center;
+	}
+}
